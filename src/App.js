@@ -5,11 +5,11 @@ import SearchParams from './SearchParams'
 
 const App = () => {
   return (
-    <div className="">
+    <div>
       <h1>Adopt Me!</h1>
       <SearchParams />
     </div>
   );
 }
 
-render(React.createElement(App), document.getElementById("root"));
+render(<App />, document.getElementById("root"));
